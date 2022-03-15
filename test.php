@@ -1,5 +1,6 @@
 <pre>
 <?php
+include 'libs/load.php';
 
 print("_SERVER\n");
 print_r($_SERVER);
