@@ -39,6 +39,8 @@ if ($result) {
                 </label>
             </div>
             <button class="w-100 btn btn-lg btn-primary hvr-grow-rotate" type="submit">Sign in</button>
+            <p>&nbsp;</p>
+            <p style="color:black;"><i>Designed and crafted by Vishnu Shriram with 💗 </i> </p>
         </form>
     </main>
 

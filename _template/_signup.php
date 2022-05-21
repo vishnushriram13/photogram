@@ -6,7 +6,7 @@ if (isset($_POST['username']) and isset($_POST['password']) and isset($_POST['em
     $password = $_POST['password'];
     $email = $_POST['email_address'];
     $phone = $_POST['phone'];
-    $error = signup($username, $password, $email, $phone);
+    $error = User::signup($username, $password, $email, $phone);
     $signup = true;
 }
 ?>
@@ -59,6 +59,8 @@ if ($signup) {
                 <label for="floatingPassword">Password</label>
             </div>
             <button class="w-100 btn btn-lg btn-primary hvr-grow-rotate" type="submit">Sign up</button>
+            <p>&nbsp;</p>
+            <p style="color:black;"><i>Designed and crafted by Vishnu Shriram with 💗 </i> </p>
         </form>
     </main>
 <?php
